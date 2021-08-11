@@ -1,0 +1,31 @@
+$parrafoDesktop:18px;
+$parrafoMobile:20px;
+$h1Desktop:55px;
+$h1Mobile:40px;
+$vista:desktop;
+
+.presentacion{
+@if $vista == desktop {
+	@media only screen and (min-width:1024px){
+		.h1{font-size:$h1Desktop;}
+		.h3{font-size:35px;}
+		.p{font-size:$parrafoDesktop;}
+		}
+	} @else if $vista == mobile {
+		@media only screen and (max-width:767px){
+			.h1{font-size:$h1Mobile;}
+			.h3{font-size:25px;}
+			.p{font-size:$parrafoMobile;}
+		}
+	} @else {
+		.h1{font-size:34px;}
+		.h3{font-size:25px;}
+		.p{font-size:20px;}
+}
+}
+
+@for $i from 1 through 10 {
+	.col-#{$i}{
+	width:10% * $i;
+	}
+}
