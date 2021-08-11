@@ -1,42 +1,42 @@
 /*CSS GENERAL*/
 *{
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
 }
 a{
-	text-decoration: none; 
+  text-decoration: none; 
 }
 li{
-	list-style: none;
+  list-style: none;
 }
 body{
-	background-color: #FAFAFA;
+  background-color: #FAFAFA;
 }
 
 /*----------------FONTS----------------*/
 @font-face{
-	font-family: 'Bebas';
-	src:  url('../assets/fonts/BebasNeue-Regular.ttf');
+  font-family: 'Bebas';
+  src:  url('../assets/fonts/BebasNeue-Regular.ttf');
 }
 @font-face{
-	font-family: 'Roboto';
-	src:  url('../assets/fonts/Roboto-Bold.ttf');
+  font-family: 'Roboto';
+  src:  url('../assets/fonts/Roboto-Bold.ttf');
 }
 @font-face{
-	font-family: 'Dash';
-	src:  url('../assets/fonts/Dash.otf');}
+  font-family: 'Dash';
+  src:  url('../assets/fonts/Dash.otf');}
 @font-face{
-	font-family: 'Roboto2';
-	src:  url('../assets/fonts/Roboto-Light.ttf');}
+  font-family: 'Roboto2';
+  src:  url('../assets/fonts/Roboto-Light.ttf');}
 @font-face{
-	font-family: 'Redwing';
-	src:  url('../assets/fonts/Redwing-Medium.otf');}
+  font-family: 'Redwing';
+  src:  url('../assets/fonts/Redwing-Medium.otf');}
 @font-face{
-	font-family: 'PlatNomor';
-	src:  url('../assets/fonts/PlatNomor.otf');}
+  font-family: 'PlatNomor';
+  src:  url('../assets/fonts/PlatNomor.otf');}
 @font-face{
-	font-family: 'MonoFont';
-	src:  url('../assets/fonts/monofonto.otf');
+  font-family: 'MonoFont';
+  src:  url('../assets/fonts/monofonto.otf');
 }
 
 /*----------------FIN FONTS----------------*/
@@ -47,7 +47,7 @@ body{
 
 /*------------NAV------------------*/
 .containerFixed{
-	padding-right: 0;
+  padding-right: 0;
   padding-left: 0;
   margin: 0;
   width: 100%;
@@ -57,129 +57,129 @@ body{
 background-color: violet;
 }
 .logoTamanio{
-	height: 60px;
-	width: 125px;
+  height: 60px;
+  width: 125px;
 }
 .navFlex{
-	display: flex;
-	flex-direction: row;
-	justify-content: flex-end;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
 }
 .navLista{
-	padding-right: 15px;
-	padding-left: 15px;
-	margin: 10px;
-	border-radius:5px;
-	background-color: #6664ff;
-	border:1px solid black;
-	box-shadow: 0px 2px 1px black;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: 10px;
+  border-radius:5px;
+  background-color: #6664ff;
+  border:1px solid black;
+  box-shadow: 0px 2px 1px black;
 }
 .navFont{
-	font-family: Bebas;
-	font-size: 20px;
-	color: whitesmoke;
-	text-decoration: none;
+  font-family: Bebas;
+  font-size: 20px;
+  color: whitesmoke;
+  text-decoration: none;
 }
 .navHoverTotal:hover {
-	color: #01c4e7;
-	text-decoration: line-through;
-	text-decoration: none;
+  color: #01c4e7;
+  text-decoration: line-through;
+  text-decoration: none;
 }
 /*------------ FIN NAV------------------*/
 
 /*------------VISTE DEL INICIO------------------*/
 .inicioBack{
-	background-color: black;
+  background-color: black;
 }
 .imgWidth{
-	width: 100% ;
+  width: 100% ;
 }
 .imgInicio{
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .txtInicio{
-	font-family: Dash;
-	font-size: 80px;
-	color: white;
+  font-family: Dash;
+  font-size: 80px;
+  color: white;
 }
 .txtFlex{
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-end;
-	padding-left: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-left: 100px;
 }
 .imgTamanio{
-	width: 300px;
-	height: 500px;
+  width: 300px;
+  height: 500px;
 }
 .rowwidth{
-	width:100%;
+  width:100%;
 }
 .imgPadding{
-	padding-left: 300px;
-	padding-top: 20px;
+  padding-left: 300px;
+  padding-top: 20px;
 }
 .eventosTxt{
-	font-family: Redwing;
-	font-size: 60px;
+  font-family: Redwing;
+  font-size: 60px;
 }
 .eventosTxt a{
-	color: #9a27f7;
-	text-decoration: overline;
+  color: #9a27f7;
+  text-decoration: overline;
 }
 .eventoFlex{
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0;
 }
 
 .imgFlex{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-evenly;
-	height: 500px;
-	width: 100%;
-	align-items: stretch;
-	padding-bottom: 120px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  height: 500px;
+  width: 100%;
+  align-items: stretch;
+  padding-bottom: 120px;
 }
 .Img1{
-	height: 400px;
-	width: 300px;
-	box-shadow: 1.5px 0.5px 8px black;
+  height: 400px;
+  width: 300px;
+  box-shadow: 1.5px 0.5px 8px black;
 }
 .waveInicio{
-	color: violet;
-	height: 150px; 
-	overflow: hidden;
+  color: violet;
+  height: 150px; 
+  overflow: hidden;
 }
 .waveInicioNegro{
-	height: 150px; 
-	overflow: hidden;
+  height: 150px; 
+  overflow: hidden;
 }
 .paddingEvento2{
-	padding:10px ;
-	padding-top:50px ;
-	padding-bottom:100px ;
+  padding:10px ;
+  padding-top:50px ;
+  padding-bottom:100px ;
 }
 /*------------ FIN VISTA DEL INICIO------------------*/
 /*------------ FOOTER ------------------*/
 
 .footerFlex{
-	display: flex;
-	flex-direction: row;
-	justify-content: flex-end;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
 }
 .footerLista{
-	padding-right: 15px;
-	padding-left: 15px;
-	margin: 10px;
-	border-radius:5px;
-	background-color: #6664ff;
-	border:1px solid black;
-	box-shadow: 0px 2px 1px black;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: 10px;
+  border-radius:5px;
+  background-color: #6664ff;
+  border:1px solid black;
+  box-shadow: 0px 2px 1px black;
 }
 
 /*------------ FIN FOOTER ------------------*/
@@ -191,7 +191,7 @@ background-color: violet;
 /*------------NAV------------------*/
 
 .containerFixed{
-	padding-right: 0;
+  padding-right: 0;
   padding-left: 0;
   margin: 0;
   width: 100%;
@@ -201,69 +201,69 @@ background-color: violet;
 background-color: violet;
 }
 /*.logoTamanio{
-	height: 75px;
-	width: 125px;*/
+  height: 75px;
+  width: 125px;*/
 }
 .navFlex{
-	display: flex;
-	flex-direction: row;
-	justify-content: flex-end;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
 }
 .navLista{
-	padding-right: 15px;
-	padding-left: 15px;
-	margin: 10px;
-	border-radius:5px;
-	background-color: #6664ff;
-	border:1px solid black;
-	box-shadow: 0px 2px 1px black;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: 10px;
+  border-radius:5px;
+  background-color: #6664ff;
+  border:1px solid black;
+  box-shadow: 0px 2px 1px black;
 }
 .navFont{
-	font-family: Bebas;
-	font-size: 20px;
-	color: whitesmoke;
-	text-decoration: none;
+  font-family: Bebas;
+  font-size: 20px;
+  color: whitesmoke;
+  text-decoration: none;
 }
 .navHoverTotal:hover {
-	color: #01c4e7;
-	text-decoration: line-through;
+  color: #01c4e7;
+  text-decoration: line-through;
 }
 /*------------ FIN NAV------------------*/
 
 /*------------ CONTENIDO ------------------*/
 .txtTamanio{
-	font-family: PlatNomor;
-	font-size: 40px;
+  font-family: PlatNomor;
+  font-size: 40px;
 }
 .txtFlexMapa{
-	display: flex;
-	flex-direction: row;
-	justify-content: flex-start;
-	padding-left: 40px;
-	padding-top:20px;
-	padding-bottom:20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-left: 40px;
+  padding-top:20px;
+  padding-bottom:20px;
 }
 
 /*------------ FIN CONTENIDO ------------------*/
 /*------------ FOOTER ------------------*/
 
 .footerFlex{
-	display: flex;
-	flex-direction: row;
-	justify-content: flex-end;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
 }
 .footerLista{
-	padding-right: 15px;
-	padding-left: 15px;
-	margin: 10px;
-	border-radius:5px;
-	background-color: #6664ff;
-	border:1px solid black;
-	box-shadow: 0px 2px 1px black;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: 10px;
+  border-radius:5px;
+  background-color: #6664ff;
+  border:1px solid black;
+  box-shadow: 0px 2px 1px black;
 }
 .paddingF{
-	position: absolute;
-	bottom: 0px;
+  position: absolute;
+  bottom: 0px;
 }
 /*------------ FIN FOOTER ------------------*/
 
@@ -274,7 +274,7 @@ background-color: violet;
 /*------------NAV------------------*/
 
 .containerFixed{
-	padding-right: 0;
+  padding-right: 0;
   padding-left: 0;
   margin: 0;
   width: 100%;
@@ -284,72 +284,72 @@ background-color: violet;
 background-color: violet;
 }
 /*.logoTamanio{
-	height: 75px;
-	width: 125px;*/
+  height: 75px;
+  width: 125px;*/
 }
 .navFlex{
-	display: flex;
-	flex-direction: row;
-	justify-content: flex-end;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
 }
 .navLista{
-	padding-right: 15px;
-	padding-left: 15px;
-	margin: 10px;
-	border-radius:5px;
-	background-color: #6664ff;
-	border:1px solid black;
-	box-shadow: 0px 2px 1px black;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: 10px;
+  border-radius:5px;
+  background-color: #6664ff;
+  border:1px solid black;
+  box-shadow: 0px 2px 1px black;
 }
 .navFont{
-	font-family: Bebas;
-	font-size: 20px;
-	color: whitesmoke;
-	text-decoration: none;
+  font-family: Bebas;
+  font-size: 20px;
+  color: whitesmoke;
+  text-decoration: none;
 }
 .navHoverTotal:hover {
-	color: #01c4e7;
-	text-decoration: line-through;
+  color: #01c4e7;
+  text-decoration: line-through;
 }
 
 /*------------ FIN NAV------------------*/
 
 /*------------ CONTENIDO ------------------*/
 .menu{
-	width: 95%;
-	height: 600px;
+  width: 95%;
+  height: 600px;
 }
 .flexCarta{
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 .carta{
 
 }
 .txtTamanio{
-	font-family: PlatNomor;
-	font-size: 40px;
+  font-family: PlatNomor;
+  font-size: 40px;
 }
 .paddingTxt{
-	padding-left: 40px;
-	padding-top:20px;
-	padding-bottom:20px;
+  padding-left: 40px;
+  padding-top:20px;
+  padding-bottom:20px;
 }
 .reserva{
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 .reservaTxt{
-	padding-top:40px;
-	padding-bottom:40px;
-	font-family: Roboto2;
-	font-size: 30px;
+  padding-top:40px;
+  padding-bottom:40px;
+  font-family: Roboto2;
+  font-size: 30px;
 }
 .menuzoom:hover{
-	transition: 40s;
-	transform: scale(1.1);
+  transition: 40s;
+  transform: scale(1.1);
 }
 
 /*------------ FIN CONTENIDO ------------------*/
@@ -357,25 +357,25 @@ background-color: violet;
 /*------------ FOOTER ------------------*/
 
 .footerFlex{
-	display: flex;
-	flex-direction: row;
-	justify-content: flex-end;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
 }
 .footerLista{
-	padding-right: 15px;
-	padding-left: 15px;
-	margin: 10px;
-	border-radius:5px;
-	background-color: #6664ff;
-	border:1px solid black;
-	box-shadow: 0px 2px 1px black;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: 10px;
+  border-radius:5px;
+  background-color: #6664ff;
+  border:1px solid black;
+  box-shadow: 0px 2px 1px black;
 }
 .paddingevento{
-	padding-bottom:165px;
+  padding-bottom:165px;
 }
 .paddingF{
-	position: absolute;
-	bottom: 0px;
+  position: absolute;
+  bottom: 0px;
 }
 
 /*------------ FIN FOOTER ------------------*/
@@ -386,7 +386,7 @@ background-color: violet;
 
 /*------------NAV------------------*/
 .containerFixed{
-	padding-right: 0;
+  padding-right: 0;
   padding-left: 0;
   margin: 0;
   width: 100%;
@@ -396,102 +396,102 @@ background-color: violet;
 background-color: violet;
 }
 /*.logoTamanio{
-	height: 75px;
-	width: 125px;*/
+  height: 75px;
+  width: 125px;*/
 }
 .navFlex{
-	display: flex;
-	flex-direction: row;
-	justify-content: flex-end;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
 }
 .navLista{
-	padding-right: 15px;
-	padding-left: 15px;
-	margin: 10px;
-	border-radius:5px;
-	background-color: #6664ff;
-	border:1px solid black;
-	box-shadow: 0px 2px 1px black;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: 10px;
+  border-radius:5px;
+  background-color: #6664ff;
+  border:1px solid black;
+  box-shadow: 0px 2px 1px black;
 }
 .navFont{
-	font-family: Bebas;
-	font-size: 20px;
-	color: whitesmoke;
-	text-decoration: none;
+  font-family: Bebas;
+  font-size: 20px;
+  color: whitesmoke;
+  text-decoration: none;
 }
 .navHoverTotal:hover {
-	color: #01c4e7;
-	text-decoration: line-through;
+  color: #01c4e7;
+  text-decoration: line-through;
 }
 /*------------ FIN NAV------------------*/
 /*------------ CONTENIDO ------------------*/
 .formulario{
-	padding-left: 150px;
-	padding-bottom: 120px;
-	padding-top: 130px;
-	padding-right: 130px;
+  padding-left: 150px;
+  padding-bottom: 120px;
+  padding-top: 130px;
+  padding-right: 130px;
 }
 .fieldset{
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		padding: 80px;
-		height: 150px;
-		font-family: Redwing;
-		font-size: 22px;
-		color: black;
-	}
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 80px;
+    height: 150px;
+    font-family: Redwing;
+    font-size: 22px;
+    color: black;
+  }
 .tituloFormulario{
-	padding-left: 40px;
-	padding-top:20px;
-	padding-bottom:20px;
+  padding-left: 40px;
+  padding-top:20px;
+  padding-bottom:20px;
 }
 .txtTamanio{
-	font-family: PlatNomor;
-	font-size: 40px;
+  font-family: PlatNomor;
+  font-size: 40px;
 }
 .botonPad{
-	padding-top: 5px;
+  padding-top: 5px;
 }
 .boton_enviar{
-		display: flex;
-		flex-direction: row;
-		justify-content: center;
-		padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
 }
 .enviarLetra{
-	font-family: Redwing;
-	font-size: 20px;
-	padding: 5px;
+  font-family: Redwing;
+  font-size: 20px;
+  padding: 5px;
 }
 .datosFormulario{
-	font-family: Roboto2;
-	font-size: 15px;
+  font-family: Roboto2;
+  font-size: 15px;
 }
 
 /*------------ FIN CONTENIDO ------------------*/
 /*------------ FOOTER ------------------*/
 
 .footerFlex{
-	display: flex;
-	flex-direction: row;
-	justify-content: flex-end;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
 }
 .footerLista{
-	padding-right: 15px;
-	padding-left: 15px;
-	margin: 10px;
-	border-radius:5px;
-	background-color: #6664ff;
-	border:1px solid black;
-	box-shadow: 0px 2px 1px black;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: 10px;
+  border-radius:5px;
+  background-color: #6664ff;
+  border:1px solid black;
+  box-shadow: 0px 2px 1px black;
 }
 .paddingevento{
-	padding-bottom:165px;
+  padding-bottom:165px;
 }
 .paddingF{
-	position: absolute;
-	bottom: 0px;
+  position: absolute;
+  bottom: 0px;
 }
 /*------------ FIN FOOTER ------------------*/
 
@@ -501,7 +501,7 @@ background-color: violet;
 
 /*------------NAV------------------*/
 .containerFixed{
-	padding-right: 0;
+  padding-right: 0;
   padding-left: 0;
   margin: 0;
   width: 100%;
@@ -511,99 +511,99 @@ background-color: violet;
 background-color: violet;
 }
 /*.logoTamanio{
-	height: 75px;
-	width: 125px;*/
+  height: 75px;
+  width: 125px;*/
 }
 .navFlex{
-	display: flex;
-	flex-direction: row;
-	justify-content: flex-end;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
 }
 .navLista{
-	padding-right: 15px;
-	padding-left: 15px;
-	margin: 10px;
-	border-radius:5px;
-	background-color: #6664ff;
-	border:1px solid black;
-	box-shadow: 0px 2px 1px black;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: 10px;
+  border-radius:5px;
+  background-color: #6664ff;
+  border:1px solid black;
+  box-shadow: 0px 2px 1px black;
 }
 .navFont{
-	font-family: Bebas;
-	font-size: 20px;
-	color: whitesmoke;
-	text-decoration: none;
+  font-family: Bebas;
+  font-size: 20px;
+  color: whitesmoke;
+  text-decoration: none;
 }
 .navHoverTotal:hover {
-	color: #01c4e7;
-	text-decoration: line-through;
+  color: #01c4e7;
+  text-decoration: line-through;
 }
 /*------------ FIN NAV------------------*/
 /*------------ CONTENIDO ------------------*/
 .imagenEvento{
-	height: 500px;
-	width: 450px;
+  height: 500px;
+  width: 450px;
 }
 .eventoImgFlex{
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-end;
-	padding-top: 120px;
-}	
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-top: 120px;
+} 
 .paddingEvento{
-	padding-top: 150px;
-	padding-left: 400px;
+  padding-top: 150px;
+  padding-left: 400px;
 }
 .titleEvento{
-	font-family: Roboto;
-	padding-left: 68px;
+  font-family: Roboto;
+  padding-left: 68px;
 }
 .listaEvento{
-	font-family: Roboto2;
+  font-family: Roboto2;
 }
 .subTitle{
-	font-family: Roboto2;
+  font-family: Roboto2;
 }
 }
 .eventosTxt{
-	font-family: Dash;
-	font-size: 70px;
-	padding: 5px;
+  font-family: Dash;
+  font-size: 70px;
+  padding: 5px;
 }
 .eventosTxt a{
-	color: #9a27f7;
+  color: #9a27f7;
 
-	
+  
 }
 .eventoFlex{
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 /*------------ CONTENIDO ------------------*/
 
 /*------------ FOOTER ------------------*/
 
 .footerFlex{
-	display: flex;
-	flex-direction: row;
-	justify-content: flex-end;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
 }
 .footerLista{
-	padding-right: 15px;
-	padding-left: 15px;
-	margin: 10px;
-	border-radius:5px;
-	background-color: #6664ff;
-	border:1px solid black;
-	box-shadow: 0px 2px 1px black;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: 10px;
+  border-radius:5px;
+  background-color: #6664ff;
+  border:1px solid black;
+  box-shadow: 0px 2px 1px black;
 }
 .paddingevento{
-	padding-bottom:165px;
+  padding-bottom:165px;
 }
 .paddingF{
-	position: absolute;
-	bottom: 0px;
+  position: absolute;
+  bottom: 0px;
 }
 /*------------ FIN FOOTER ------------------*/
 
@@ -611,32 +611,32 @@ background-color: violet;
 /*-------------------PAGINA 404-----------------------*/
 /*=====================================================*/
 .errorTxt{
-	font-size: 50px;
-	font-family: Dash;
-	text-shadow: whitesmoke 1px 1px 1.1px;
-	color: black;
+  font-size: 50px;
+  font-family: Dash;
+  text-shadow: whitesmoke 1px 1px 1.1px;
+  color: black;
 }
 .errorDiv{
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	padding-top: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 400px;
 }
 .bgError{
-	background-color: #616161;
+  background-color: #616161;
 }
 /*==============================*/
 .redes{
-	padding-top: 10px;
+  padding-top: 10px;
 }
 .ig {
   font-size: 30px;
 }
 .mail{
-	font-size: 33px;
+  font-size: 33px;
 }
 .redesFlex{
-	display: flex;
+  display: flex;
   flex-direction: row;
   justify-content: center;
   padding-left: 40px;
@@ -645,24 +645,24 @@ background-color: violet;
 }
 
 .fixedRedes{
-	position: absolute;
-	bottom: 65px;
+  position: absolute;
+  bottom: 65px;
 }
 .derechos{
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 .txtCopy{
-	font-family: PlatNomor;
-	font-size: 20px;
+  font-family: PlatNomor;
+  font-size: 20px;
 }
 .redesFlex a{
-	color: black;
+  color: black;
 }
 .redesFlex a:hover{
-	color: #6664ff;
-	text-decoration: overline;
+  color: #6664ff;
+  text-decoration: overline;
 }
 /*mapget*/
 @media only screen and (min-width: 1024px) {
