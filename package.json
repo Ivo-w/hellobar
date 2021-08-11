@@ -13,6 +13,10 @@
   "license": "ISC",
   "devDependencies": {
     "node-sass": "^6.0.1",
-    "nodemon": "^2.0.12"
+    "nodemon": "^2.0.12",
+    "AoS": "^2.3.1",
+    "ionicons":"^5.5.2",
+    "bootstrap" "^4.6"
+
   }
 }
