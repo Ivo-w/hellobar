@@ -382,7 +382,40 @@ background-color: violet;
   transition: 40s;
   transform: scale(1.1);
 }
-
+.menuTamanio{
+  height: 650px;
+  width: 120px;
+}
+.menuPadding{
+  padding-left: 50px;
+  padding-bottom: 50px;
+}
+.precioFlex{
+  display: flex;
+  flex-direction: row;
+  padding-left: 100px;
+  
+}
+.menuPadding2{
+  padding-top: 100px;
+}
+.menuFlex{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 50px;
+}
+.padingMenu{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.txt_menu_Flex{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: Redwing;
+  color: mediumvioletred;
+}
 /*------------ FIN CONTENIDO ------------------*/
 
 /*------------ FOOTER ------------------*/
@@ -496,6 +529,11 @@ background-color: violet;
 .datosFormulario{
   font-family: Roboto2;
   font-size: 15px;
+  
+}
+.txtForm{
+
+  color: mediumvioletred;
 }
 
 /*------------ FIN CONTENIDO ------------------*/
