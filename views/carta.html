@@ -6,7 +6,8 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="../css/bootstrap.min.css">
@@ -58,11 +59,78 @@
 							<h1 class="txtTamanio">CARTA</h1>
 						</div>
 					</div>
-					<div>
-						<h2 class="txt_menu_Flex">COMIDA</h2>
-					</div>
+			
+					<!-- Menu Container -->
+						<div class="w3-container w3-padding-64 w3-xxlarge" id="menu">
+						  <div class="w3-content">
 
-				<div class="padingMenu">
+						    <h1 class="w3-center w3-jumbo txt_menu_Flex" style="margin-bottom:64px">MENÚ</h1>
+						    <div class="w3-row w3-center">
+
+						      <a href="javascript:void(0)" onclick="openMenu(event, 'Comida');" id="myLink">
+						        <div class="w3-col s4 tablink w3-padding-large w3-hover-red txt_menu_Flex">Comida</div>
+						      </a>			  
+						      <a href="javascript:void(0)" onclick="openMenu(event, 'Bebida');">
+						        <div class="w3-col s4 tablink w3-padding-large w3-hover-red txt_menu_Flex">Bebidas</div>
+						      </a>
+
+						    </div>
+
+						    <div id="Comida" class="w3-container menu w3-padding-32 w3-white">
+						      <h1><b>Pizza Muzarrela</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$300</span></h1>
+						      <p class="w3-text-grey">Queso mozzarella </p>
+						      <hr>
+						   
+						      <h1><b>Pizza Roquefort</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$400</span></h1>
+						      <p class="w3-text-grey">Relleno queso roquefort</p>
+						      <hr>
+						      
+						      <h1><b>Pizza Cuatro quesos</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$350</span></h1>
+						      <p class="w3-text-grey">Cuatro quesos (mozzarella, parmesano, roquefort, fontina)</p>
+						      <hr>
+
+						      <h1><b>Papas con cheddar</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$250</span></h1>
+						      <p class="w3-text-grey">Papas rusticas, cheddar y panceta</p>
+						      <hr>  
+						    </div>
+
+						    <div id="Bebida" class="w3-container menu w3-padding-32 w3-white">
+						      <h1><b>Cerveza Negra</b> <span class="w3-tag w3-grey w3-round"></span> <span class="w3-right w3-tag w3-dark-grey w3-round">$200</span></h1>
+						      <p class="w3-text-grey">Malta, malta de chocolate, lúpulo cascade</p>
+						      <hr>
+						   
+						      <h1><b>Cerveza Roja</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$200</span></h1>
+						      <p class="w3-text-grey">100% malta de cebada, lúpulo y levadura</p>
+						      <hr>
+						      
+						      <h1><b>Cerveza Rubia</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$200</span></h1>
+						      <p class="w3-text-grey">Tres malta de cebada, lúpulo, levadura</p>
+						      <hr>
+
+						      <h1><b>Cerveza IPA</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$250</span></h1>
+						      <p class="w3-text-grey">Tres malta de cebada, lúpulo, levadura</p>
+						    </div> 
+						  </div>
+						</div>
+
+
+				</div>
+			</div>
+		</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+				<!-- <div class="padingMenu">
 						<div id="carouselExampleControls menuFlex" class="carousel slide" data-ride="carousel">
 							  <div class="carousel-inner">
 							    <div class="carousel-item active">
@@ -121,7 +189,7 @@
 						</div>
 				</div>
 			</div>
-		</div>
+		</div>-->
 
 		<!-- FOOTER -->
 	<div class="container-fluid containerFixed">
@@ -172,5 +240,23 @@
 		<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 		<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 		<!-- FIN DE LINKEOS -->
+		<script src="script.js"></script>
+		<script>
+			// Tabbed Menu
+			function openMenu(evt, menuName) {
+			  var i, x, tablinks;
+			  x = document.getElementsByClassName("menu");
+			  for (i = 0; i < x.length; i++) {
+			     x[i].style.display = "none";
+			  }
+			  tablinks = document.getElementsByClassName("tablink");
+			  for (i = 0; i < x.length; i++) {
+			     tablinks[i].className = tablinks[i].className.replace(" w3-red", "");
+			  }
+			  document.getElementById(menuName).style.display = "block";
+			  evt.currentTarget.firstElementChild.className += " w3-red";
+			}
+			document.getElementById("myLink").click();
+			</script>
   </body>
 </html>
