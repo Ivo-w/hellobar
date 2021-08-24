@@ -680,9 +680,11 @@ background-color: violet;
 /*=====================================================*/
 .errorTxt{
   font-size: 50px;
-  font-family: Dash;
+  font-family: Redwing;
   text-shadow: whitesmoke 1px 1px 1.1px;
-  color: black;
+}
+.errorTxt a{
+  color: darkviolet;
 }
 .errorDiv{
   display: flex;
@@ -691,7 +693,21 @@ background-color: violet;
   padding-top: 400px;
 }
 .bgError{
-  background-color: #616161;
+  background-color: black;
+}
+.errorP{
+  color: white;
+}
+.errorParraf{
+  font-size: 25px;
+  font-family: Redwing;
+  text-shadow: grey 1px 1px 1.1px;
+}
+.error--parrafo_Flex{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 15px;
 }
 /*==============================*/
 .redes{
