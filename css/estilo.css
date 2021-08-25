@@ -719,7 +719,9 @@ background-color: violet;
   justify-content: center;
   padding-left: 40px;
   padding-bottom: 10px;
-
+}
+.footer_fixed{
+  padding-bottom: 20px;
 }
 
 .fixedRedes{
@@ -798,5 +800,6 @@ background-color: violet;
  left: 300px;
 }
 }
+
 
 
