@@ -217,9 +217,6 @@ background-color: violet;
 .containerBack{
 background-color: violet;
 }
-/*.logoTamanio{
-  height: 75px;
-  width: 125px;*/
 }
 .navFlex{
   display: flex;
@@ -576,9 +573,7 @@ background-color: violet;
 .containerBack{
 background-color: violet;
 }
-/*.logoTamanio{
-  height: 75px;
-  width: 125px;*/
+
 }
 .navFlex{
   display: flex;
